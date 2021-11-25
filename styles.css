@@ -1,0 +1,54 @@
+.wrapper_title{
+    text-align: center;
+}
+.mainprogram{
+    background-color: darkred;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 300px;
+    position: relative;
+}
+.vvod{
+    font-size: 20px;
+}
+
+[class^="input"]{
+    height: 50px;
+    font-size: 50px;
+    width: 80%;
+}
+
+.result{
+    border: solid 4px teal;
+    height: 50px;
+    margin-top: 30px;
+ margin-left: 50%;
+    cursor: pointer;
+    box-shadow: 0 10px red;
+    transition: all .3s ease;
+    display: block;
+    font-size: 30px;
+}
+@media (max-width: 900px) {
+    .mainprogram{
+        height: 350px;
+    }
+}
+.result:hover{
+    box-shadow: 0 5px red;
+    margin-top: 35px;
+
+}
+
+.decision{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+    background-color: green;
+    border: solid 2px black;
+}
